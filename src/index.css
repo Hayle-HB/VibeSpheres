@@ -9,6 +9,7 @@
   --secondary-text: #1e293b;
   --hover-primary: #4f46e5;
   --hover-secondary: #f1f5f9;
+  --nav-height: 4rem;
 }
 
 .dark {
@@ -63,6 +64,7 @@ body {
   backdrop-filter: blur(8px);
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease;
+  height: var(--nav-height);
 }
 
 .nav-left {
@@ -177,6 +179,7 @@ body {
   justify-content: center;
   gap: 4rem;
   padding: 2rem 0;
+  margin-top: 1rem;
 }
 
 .hero-left {
@@ -488,7 +491,7 @@ body {
 /* Enhanced Responsive Design */
 @media (max-width: 1536px) {
   .hero-container {
-    padding: 0 6%;
+    padding: 5rem 6% 0;
   }
 
   .hero-left h1 {
@@ -502,7 +505,7 @@ body {
 
 @media (max-width: 1280px) {
   .hero-container {
-    padding: 0 5%;
+    padding: 4.5rem 5% 0;
   }
 
   .hero-left h1 {
@@ -526,8 +529,7 @@ body {
   .hero-container {
     height: auto;
     min-height: 100vh;
-    padding: 1rem 4%;
-    padding-top: 4.5rem;
+    padding: 4.5rem 4% 0;
   }
 
   .hero-wrapper {
@@ -556,8 +558,7 @@ body {
 
 @media (max-width: 768px) {
   .hero-container {
-    padding: 0 1rem;
-    padding-top: 4rem;
+    padding: 4rem 1rem 0;
   }
 
   .hero-left h1 {
@@ -620,7 +621,7 @@ body {
   }
 
   .hero-container {
-    padding-top: 3.5rem;
+    padding: 3.5rem 1rem 0;
   }
 }
 
