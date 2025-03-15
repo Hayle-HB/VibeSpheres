@@ -87,11 +87,11 @@ const App = () => {
           </div>
           <div className="hero-stats">
             <div className="stat-item">
-              <h3>10M+</h3>
+              <h3>X.1+</h3>
               <p>Active Users</p>
             </div>
             <div className="stat-item">
-              <h3>150+</h3>
+              <h3>X.2+</h3>
               <p>Countries</p>
             </div>
             <div className="stat-item">
